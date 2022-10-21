@@ -1,0 +1,86 @@
+body {
+  background-image: url("images/Background.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+@font-face {
+  font-family: Inlanders;
+  src: url(fonts/Inlanders_Demo.otf);
+}
+.divLeft {
+  border: 5px outset black;
+  background-color: rgb(147, 65, 241);
+  color: white;
+  width: 25vw;
+  height: 15vw;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin: 80px;
+  margin-top: 100px;
+  border-radius: 1vw;
+  font-family: Inlanders;
+  font-size: 20px;
+  box-shadow: 10px 10px 5px rgb(0 0 0 / 0.2);
+}
+.divRight {
+  border: 5px outset black;
+  background-color: rgb(83, 83, 83);
+  color: white;
+  width:45vw;
+  height: 15vw;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 0vw;
+  right: 0vw;
+  margin: 75px;
+  z-index: 2;
+  border-radius: 1vw;
+  font-family: Inlanders;
+  font-size: 20px;
+  box-shadow: 10px 10px 5px rgb(0 0 0 / 0.2);
+}
+.pfp {
+ position: absolute;
+ top: 7vw;
+ right: 10vw;
+ z-index: 1;
+}
+.name {
+  margin-top: -3vw;
+  font-family: Inlanders;
+  color: white;
+  width: 50vw;
+  height: 1vw;
+  position: absolute;
+  top: 0vw;
+  left: 1vw;
+  bottom: 400vw;
+  font-size: 40px;
+  -webkit-text-stroke: 3px black;
+}
+#erf{
+  margin-bottom: 10px;
+}
+#erf_p{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#utb{
+  margin-bottom: 10px;
+}
+#utb_p{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#om_mig{
+  margin-bottom: -20px;
+}
+#om_mig_p{
+  margin-left: 20px;
+  margin-right: 20px;
+}
